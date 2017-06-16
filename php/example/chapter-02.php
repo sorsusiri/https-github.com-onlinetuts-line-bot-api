@@ -2,12 +2,13 @@
 
 include ('line-bot-api/php/line-bot.php');
 
-$channelSecret = '551ec4........3cff0';
-$access_token  = '2og9ogezC..... W5ZUEQQdB04t89/1O/w1cDnyilFU=';
+$channelSecret = 'U3df1cac88e3510a10684dc664237064b';
+$access_token  = 'ifNEIb0T0fu00LwBVddqYSarOl/O+5v8LEhd9BbPNtBBT0mqK6hYGI5SgV4IYxAyN3CAOpcCNaTsf5q+jT9eLNiEa9vgsmPuEUF60+KL41WJ09ck4ZYVu8BfOJVexyb5/qvfajyXkHI2yF3D1QL7hgdB04t89/1O/w1cDnyilFU=
+';
 
 $bot = new BOT_API($channelSecret, $access_token);
 	
-$bot->sendMessageNew('U39f72cc.....d460d6ddf', 'Hello World !!');
+$bot->sendMessageNew('U3df1cac88e3510a10684dc664237064b', 'Hello World !!');
 
 if ($bot->isSuccess()) {
     echo 'Succeeded!';
